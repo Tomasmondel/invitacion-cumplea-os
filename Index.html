@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Invitación 🎉</title>
+    <link rel="stylesheet" href="Invitacion.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- CARTA -->
+    <div class="envelope" id="envelope">
+        <div class="flap"></div>
+        <div class="letter">
+            <h2>💌 Toca para abrir</h2>
+        </div>
+    </div>
+
+    <!-- INVITACION -->
+    <div class="invitation hidden" id="invitation">
+        <div class="card">
+            <h1>🎉 Estás Invitado 🎉</h1>
+            <div>
+            <p>Te invito a mi cumpleaños 🥳</p>
+            <p>📅 Sábado - 22:00 hs</p>
+            </div>
+            <div class="buttons">
+                <button onclick="verUbicacion()" class="btn-img"><img src="./recursos-imagenes/Map.jpg" alt="mapa"></button>
+                <button onclick="confirmar()" class="btn-confirmar">✅ Confirmar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONFETTI -->
+    <canvas id="confetti"></canvas>
+
+</div>
+
+<script src="Invitacion.js"></script>
+</body>
+</html>
